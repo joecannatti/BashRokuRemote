@@ -1,0 +1,5 @@
+Have you ever wished you could control you Roku player right from the terminal?
+
+I have. This shell script lets you do just that, and it uses vim keybinding to boot.
+
+Enjoy :)
