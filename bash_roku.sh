@@ -20,7 +20,7 @@ function roku {
   fi;  
 
   echo
-  echo "You player is at $ROKU_IP"
+  echo "Your player is at $ROKU_IP"
   echo
 
   while [ TRUE ]; do
