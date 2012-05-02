@@ -2,7 +2,6 @@ function find_roku {
   for i in $(arp -a | awk '{print $2}' | sed "s/[(|)]//g"); do 
     curl $i:8060 &>/dev/null
     if [[ "$?" == "0" ]]; then 
-      echo $i
       export ROKU_IP=$i
     fi
   done
