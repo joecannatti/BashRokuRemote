@@ -1,3 +1,4 @@
+#! /bin/bash
 function find_roku {
   for i in $(arp -a | awk '{print $2}' | sed "s/[(|)]//g"); do 
     curl $i:8060 &>/dev/null
@@ -57,3 +58,4 @@ function roku {
 
   done
 }
+roku

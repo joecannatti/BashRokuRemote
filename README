@@ -2,10 +2,8 @@ Have you ever wished you could control your Roku player from the terminal of you
 
 I have. This shell script lets you do just that, and it uses vim keybinding!
 
-Just add these functions to your ~/.profile or ~/.bash_rc file and type
+You can either run this script directly or  add these functions to your ~/.profile or ~/.bash_rc file and type
 
 roku
-
-to get started
 
 Enjoy :)
